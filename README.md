@@ -1,6 +1,6 @@
 # Red-Academy-Project-2
 
-This project is the second part to an intoductory wedsite written with HTML CSS and JavaScript. 
+This project is the second part to an intoductory website written with HTML CSS and JavaScript. 
 
 The second part to this project had a few design challenges. The margin spacing between flexed items in the new bar created problems, introducing a top margin doesnt seem to work for flexed items and I couldn't find a way around this. Additionally the e-mail subscribe bar was still very frustrating.
 
