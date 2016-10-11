@@ -1,0 +1,696 @@
+header {
+    font-family: 'playfair-display-regular';
+}
+
+body {
+    font-size: 16px;
+    font-family: 'raleway-light';
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+@font-face {
+    font-family: 'playfair-display-bold';
+    src: url(assets/fonts/PlayfairDisplay-Bold.otf);
+}
+
+@font-face {
+    font-family: 'playfair-display-regular';
+    src: url(assets/fonts/PlayfairDisplay-Regular.otf);
+}
+
+@font-face {
+    font-family: 'raleway-light';
+    src: url(assets/fonts/Raleway-Light.ttf);
+}
+
+@font-face {
+    font-family: 'raleway-medium';
+    src: url(assets/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'playfair-display-italic';
+    src: url(assets/fonts/PlayfairDisplay-Italic.otf);
+}
+
+.bruce-banner {
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'raleway-medium';
+}
+
+.banner-scroll {
+    max-width: none;
+    width: auto;
+}
+
+.banner-scroll a {
+    margin: 6px;
+    font-size: 1rem;
+    color: #e2574c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.banner-scroll a {
+    margin: 6px;
+    font-size: 1rem;
+    color: #e2574c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
+
+h5 {
+    padding: 0;
+    margin: 1px;
+}
+
+.banner1 img {
+    height: 50px;
+    width: 100px;
+}
+
+.banner2 img {
+    width: 50px;
+    height: 50px;
+}
+
+.background {
+    background-image: url(assets/images/banner-girl.png), url(assets/images/flower-bkgd.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 90%, 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 45vw;
+    text-shadow: 1px 1px darkgray;
+}
+
+.background-gradient {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 100%;
+}
+
+.background-text1 {
+    font-size: 13px;
+    color: white;
+    font-family: 'raleway-medium';
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 18%;
+}
+
+.background-text2 {
+    font-size: 2.2rem;
+    color: white;
+    font-family: 'playfair-display-regular';
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.middle-text {
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    color: #2d2d2d;
+}
+
+.middle-text1 {
+    text-align: center;
+    display: inline-block;
+    font-family: 'playfair-display-italic';
+    font-size: 1.7rem;
+}
+
+.middle-text2 {
+    display: inline-block;
+    font-size: 1.7rem;
+    padding-left: 10px;
+}
+
+.middle-text3 {
+    font-family: 'playfair-display-regular';
+    font-size: 0.8rem;
+}
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    background-position: center;
+}
+
+.navigation background .navigation h3 {
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-container1 {
+    width: 100%;
+    height: 175px;
+}
+
+.navigation-container2 {
+    width: 50%;
+    height: 175px;
+}
+
+.navigation-container3 {
+    width: 50%;
+    height: 175px;
+}
+
+.navigation-container4 {
+    width: 50%;
+    height: 175px;
+}
+
+.navigation-container5 {
+    width: 50%;
+    height: 175px;
+}
+
+.navigation-container6 {
+    width: 100%;
+    height: 175px;
+}
+
+.navigation-mens {
+    margin: 1.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.1);
+    background-image: url(assets/images/mens-category.jpg);
+    background-size: cover;
+    background-position: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-trends {
+    margin: 1.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/trends-category.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-glasses {
+    margin: 1.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/glasses-category.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-sale {
+    margin: 1.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/sale-category.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-bags {
+    margin: 1.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/bags-category.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navigation-womens {
+    margin: 1.5px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/images/womens-category.jpg);
+    background-size: cover;
+    text-transform: uppercase;
+    color: white;
+}
+
+.most-loved-text1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    font-family: 'playfair-display-italic';
+    font-size: 1.7rem;
+    color: #2d2d2d;
+}
+
+.most-loved-text2 {
+    font-family: none, bold;
+    color: #2d2d2d;
+}
+
+.top-tag1 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag2 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag3 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag4 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag5 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag6 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag7 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.top-tag8 {
+    font-size: 0.5rem;
+    padding: 7px;
+}
+
+.middle-tag1 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag2 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag3 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag4 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag5 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag6 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag7 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.middle-tag8 {
+    font-size: 1rem;
+    padding: 7px;
+    color: #e2574c
+}
+
+.bottom-tag1 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag2 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag3 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag4 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag5 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag6 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag7 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.bottom-tag8 {
+    font-size: 0.7rem;
+    padding: 7px;
+    font-family: 'playfair-display-regular';
+    color: darkgray;
+}
+
+.stretch-dress {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.cotton-blue-shirt {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.checked-stretch-dress {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.blue-hipster-backpack {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.pink-dotted-dress {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.cotton-yellow-tshirt {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.denim-overall-shorts {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.blue-silk-dress {
+    height: auto;
+    width: 99%;
+    text-align: center;
+}
+
+.e-mail-bar {
+    text-align: center;
+    background-image: url(assets/images/wave-bkgd.jpg);
+    background-size: contain;
+    background-position: bottom center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-size: 100%;
+    color: white;
+    text-shadow: 1px 1px darkgray;
+    margin-top: 75px;
+}
+
+input[type="email"] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 100px;
+}
+
+input[type="email"],
+input[type="submit"] {
+    border: 0;
+    border-radius: 25px;
+}
+
+input[type="submit"] {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #e2574c;
+}
+
+.e-mail-sub-text1 {
+    font-family: 'playfair-display-italic';
+    font-size: 1.7rem;
+}
+
+.e-mail-sub-text2 {
+    font-family: none, bold;
+}
+
+.copyright {
+    color: white;
+    font-family: 'playfair-display-regular';
+    font-size: 11px;
+    padding-left: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.copyright p {
+    margin: 2px;
+}
+
+.copyright2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.copyright3 h2{
+    font-size:11px;
+}
+
+.copyright3-underline h2{
+    text-decoration: underline;
+}
+.copyright4 {
+    color: darkgray;
+}
+
+
+.social {
+    padding-right: 5%;
+    padding-top: 5%;
+    color: white;
+}
+
+.social ul {}
+
+.facebook {
+    padding-left: 30px;
+}
+
+.twitter {
+    padding-left: 30px;
+}
+
+.instagram {
+    padding-left: 30px;
+}
+
+.pinetrest {
+    padding-left: 30px;
+}
+
+.google {
+    padding-left: 30px;
+}
+
+.footer-container {
+    background-color: #242424;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 600px) {
+    .navigation-container1 {
+        width: 50%;
+        height: 250px;
+    }
+    .navigation-container2 {
+        width: 25%;
+        height: 250px;
+    }
+    .navigation-container3 {
+        width: 25%;
+        height: 250px;
+    }
+    .navigation-container4 {
+        width: 25%;
+        height: 250px;
+    }
+    .navigation-container5 {
+        width: 25%;
+        height: 250px;
+    }
+    .navigation-container6 {
+        width: 50%;
+        height: 250px;
+    }
+    .stretch-dress {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .cotton-blue-shirt {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .checked-stretch-dress {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .blue-hipster-backpack {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .pink-dotted-dress {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .cotton-yellow-tshirt {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .denim-overall-shorts {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+    .blue-silk-dress {
+        height: auto;
+        width: 49%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    .stretch-dress {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .cotton-blue-shirt {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .checked-stretch-dress {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .blue-hipster-backpack {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .pink-dotted-dress {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .cotton-yellow-tshirt {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .denim-overall-shorts {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+    .blue-silk-dress {
+        height: auto;
+        width: 24%;
+        text-align: center;
+    }
+}
