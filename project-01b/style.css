@@ -485,7 +485,7 @@ h5 {
     text-shadow: 1px 1px darkgray;
     margin-top: 75px;
 }
-
+/*
 input[type="email"] {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -497,8 +497,52 @@ input[type="email"],
 input[type="submit"] {
     border: 0;
     border-radius: 25px;
+}*/
+
+
+form {
+	background-color: #FFF;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #FFF;
+	display:inline-block;
+	cursor:pointer;
+	font-size: 1rem;
+  margin-top: 22px;
+	padding:2px 7px;
+	text-decoration:none;
+  height: 35px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+input[type="email"]  {
+  border: 0;
+  width: 150px;
+  outline: none;
+  height: 30px;
+  margin-top: 2px;
+}
+input[type="submit"]  {
+	background-color: #e2574c;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:0;
+	display:inline-block;
+	cursor:pointer;
+  color: #FFF;
+	padding: 7px 13px; /* height, width */
+	text-decoration:none;
+  text-align: center;
+  margin-top: 2px;
+}
+input[type="submit"]:hover {
+  background-color: #b64036;
 }
 
+/*
 input[type="submit"] {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -506,7 +550,7 @@ input[type="submit"] {
     padding-right: 10px;
     color: white;
     background-color: #e2574c;
-}
+}*/
 
 .e-mail-sub-text1 {
     font-family: 'playfair-display-italic';
