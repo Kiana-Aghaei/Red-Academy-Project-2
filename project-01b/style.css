@@ -296,6 +296,7 @@ h5 {
     font-family: 'playfair-display-regular';
     font-size: 0.8rem;
 }
+/*you shoudn't call this section navigation also it's a section it's better you use section tag instead of div. i'm not sure still ask Rose. */
 
 .navigation {
     display: flex;
